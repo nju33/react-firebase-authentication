@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "lib": ["es2015", "es2016", "dom"],
+    "jsx": "react",
+    "declaration": true,
+    "outDir": "./dist",
+    "experimentalDecorators": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "components/*": ["src/components/*"]
+    }
+  },
+  "include": [
+    "src/components/authentication/index.tsx",
+    "src/components/types/**/*.d.ts"
+  ]
+}

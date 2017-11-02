@@ -1,0 +1,8 @@
+/webpack*.js
+/ts*.json
+/fire*.json
+/fire*.rules
+/dev.html
+/.prettierrc
+/.*ignore
+/.*rc

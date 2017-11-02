@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "comment-format": false,
+    "indent": [true, "spaces", 2],
+    "ter-indent": [true, 2, {
+      "SwitchCase": 1
+    }],
+    "trailing-comma": true,
+    "prefer-const": true,
+    "no-unused-expression": true,
+    "no-unused-variable": ["error", {"vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "no-use-before-declare": ["error", { "functions": true, "classes": true }],
+    "max-line-length": [true, 80],
+    "interface-name": [true, "never-prefix"],
+    "arrow-return-shorthand": true,
+    "semicolon": [true, "always", "ignore-bound-class-methods"]
+  }
+}
